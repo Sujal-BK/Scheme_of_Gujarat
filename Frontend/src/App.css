@@ -1,0 +1,206 @@
+/**Main page code**/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white !important; 
+}
+
+.back {
+  background-color: rgb(41, 29, 29);
+}
+
+.head {
+  font-size: 30px;
+  font-weight: bolder;
+  width: auto;
+  height: 50px;
+}
+
+.size-scheme {
+  font-size: 25px;
+}
+
+.right {
+  background-color: white;
+  border-radius: 50px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+
+.h {
+  height: 100px;
+  text-shadow: 0px 0px 2px rgb(145, 133, 133);
+}
+
+.special {
+  background-color: beige;
+}
+
+.text-s {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.ok {
+  box-shadow: 0px 0px 20px rgb(145, 133, 133);
+}
+
+.ok:hover {
+  box-shadow: 0px 0px 30px;
+  transition: 0.8s;
+}
+
+.foot {
+  cursor: pointer;
+  background-color: black;
+}
+
+.bootom {
+  text-decoration: none;
+  color: rgb(144, 146, 146);
+}
+
+.bootom:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/**Login page**/
+.logo {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.main {
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px rgb(160, 160, 160);
+  padding-bottom: 20px;
+}
+
+@media (max-width: 380px) {
+  .main {
+    width: 100%;
+  }
+}
+
+.heading {
+  font-family: monospace, sans-serif;
+  font-weight: bold;
+}
+
+.information {
+  font-family: "Lucida Sans";
+}
+
+.user {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 6px;
+  outline: none;
+  padding: 9px;
+  padding-left: 10px;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.user::placeholder {
+  color: rgb(106, 112, 112);
+  font-family: monospace, sans-serif;
+}
+
+.password {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 6px;
+  outline: none;
+  padding: 9px;
+  padding-left: 10px;
+  font-family: monospace, sans-serif;
+  cursor: pointer;
+}
+
+.password::placeholder {
+  color: rgb(106, 112, 112);
+  font-family: monospace, sans-serif;
+}
+
+.left {
+  background-color: white;
+  border-radius: 50px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+
+/**Register**/
+.fname {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 125px;
+  margin-right: 5px;
+  height: 44px;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+.fname::placeholder {
+  color: rgb(106, 112, 112);
+  font-family: monospace, sans-serif;
+}
+
+/**All-scheme**/
+.navs {
+  background-color: rgb(0, 0, 0);
+}
+
+.help {
+  position: fixed;
+  left: 20px;
+  top: 40%;
+  z-index: 1;
+}
+
+.search-f {
+  outline: none;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-top: 20px;
+  height: 45px;
+  width: 230px;
+  padding-left: 15px;
+  font-size: 21px;
+}
+
+.search-f::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.btn-f {
+  margin-bottom: 5px;
+  font-family: monospace, sans-serif;
+  height: 44px;
+  margin-left: 2px;
+}
+
+.search-field {
+  border: 1px solid black !important;
+  outline: none !important;
+}
+.search-field:focus {
+  outline: none !important;
+}
+.search-button {
+  border: 1px solid black !important;
+}

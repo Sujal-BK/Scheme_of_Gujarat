@@ -181,11 +181,10 @@ export const Home = () => {
               </div>
               <div className="card-text mt-3">
                 <p>
-                  Beladiya Dhrumil (it)<br />
-                  Gopani Dhruv (it)<br />
-                  Dankhara Chintan (it)<br />
-                  Chauhan Tushar (it) <br />
-                  Bhavesh solanki (it)
+                 Sujal Kachhadiya<br />
+                 Arpil Khunt <br />
+                 Tirth Galani<br />
+                 Deep jasoliya <br />
                 </p>
 
               </div>
